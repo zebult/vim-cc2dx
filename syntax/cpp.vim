@@ -530,8 +530,12 @@ syn keyword ccClass ZipFilePrivate
 syn keyword ccClass ZipUtils
 syn keyword ccClass ccColor3BWapper
 
-
-
+"syn keyword ccFunction index
+"syn keyword ccFunction index2adr
+"syn keyword ccFunction indexMightHelpWithOrderBy
+"syn keyword ccFunction indexOfObject
+"syn keyword ccFunction indexOfSortedObject
+"syn keyword ccFunction indexupvalue
 syn keyword ccFunction absFunc
 syn keyword ccFunction absolutePosition
 syn keyword ccFunction acceptVisitor
@@ -864,6 +868,11 @@ syn keyword ccFunction cancel
 syn keyword ccFunction cancelAlert
 syn keyword ccFunction cancelAlertView
 syn keyword ccFunction capacity
+syn keyword ccFunction CCRANDOM_0_1
+syn keyword ccFunction CC_CALLBACK_0
+syn keyword ccFunction CC_CALLBACK_1
+syn keyword ccFunction CC_CALLBACK_2
+syn keyword ccFunction CC_CALLBACK_3
 syn keyword ccFunction cdateFunc
 syn keyword ccFunction cellArea
 syn keyword ccFunction cellAtIndex
@@ -1796,6 +1805,7 @@ syn keyword ccFunction getInsetBottom
 syn keyword ccFunction getInsetLeft
 syn keyword ccFunction getInsetRight
 syn keyword ccFunction getInsetTop
+syn keyword ccFunction getInstance
 syn keyword ccFunction getIntFromStmt
 syn keyword ccFunction getIntKey
 syn keyword ccFunction getIntValue
@@ -2235,12 +2245,6 @@ syn keyword ccFunction increaseAtlasCapacity
 syn keyword ccFunction increaseAtlasCapacityTo
 syn keyword ccFunction increaseTotalQuadsWith
 syn keyword ccFunction indent
-syn keyword ccFunction index
-syn keyword ccFunction index2adr
-syn keyword ccFunction indexMightHelpWithOrderBy
-syn keyword ccFunction indexOfObject
-syn keyword ccFunction indexOfSortedObject
-syn keyword ccFunction indexupvalue
 syn keyword ccFunction init
 syn keyword ccFunction initAudioPlayer
 syn keyword ccFunction initAvgEq
@@ -3943,6 +3947,7 @@ syn keyword ccFunction setStringForKey
 syn keyword ccFunction setStringForKeyJNI
 syn keyword ccFunction setSubItems
 syn keyword ccFunction setSurfaceVelocities
+syn keyword ccFunction setSwallowTouches
 syn keyword ccFunction setSwallowsTouches
 syn keyword ccFunction setTGAInfo
 syn keyword ccFunction setTMXFileName
@@ -5133,6 +5138,7 @@ syn keyword ccFunction title
 syn keyword ccFunction toHexString
 syn keyword ccFunction toLowerCase
 syn keyword ccFunction toStyledString
+syn keyword ccFunction to_string
 syn keyword ccFunction tobit
 syn keyword ccFunction tofile
 syn keyword ccFunction tohex
@@ -5945,6 +5951,7 @@ syn keyword ccType ARMIns
 syn keyword ccType ARMShift
 syn keyword ccType ASMFunction
 syn keyword ccType ASMState
+syn keyword ccType Action
 syn keyword ccType AggInfo
 syn keyword ccType AliasRet
 syn keyword ccType Args
@@ -7580,4 +7587,5 @@ highlight link ccClass CCClass
 highlight link ccType Type
 highlight link ccStruct Structure
 highlight link ccEnum Constant
-highlight link ccFunction Function
+"highlight link ccFunction Function
+highlight link ccFunction Keyword
