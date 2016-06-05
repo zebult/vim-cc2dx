@@ -3182,6 +3182,7 @@ syn keyword ccFunction purgeSharedTextureCache
 syn keyword ccFunction purgeSharedUserDefault
 syn keyword ccFunction purgeSpriteFrameCacheHelper
 syn keyword ccFunction push
+syn keyword ccFunction pushBack
 syn keyword ccFunction pushBoolean
 syn keyword ccFunction pushCCLuaValue
 syn keyword ccFunction pushCCLuaValueArray
