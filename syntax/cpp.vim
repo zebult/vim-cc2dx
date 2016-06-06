@@ -536,6 +536,13 @@ syn keyword ccClass ccColor3BWapper
 "syn keyword ccFunction indexOfObject
 "syn keyword ccFunction indexOfSortedObject
 "syn keyword ccFunction indexupvalue
+syn keyword ccFunction CCRANDOM_0_1
+syn keyword ccFunction CC_CALLBACK_0
+syn keyword ccFunction CC_CALLBACK_1
+syn keyword ccFunction CC_CALLBACK_2
+syn keyword ccFunction CC_CALLBACK_3
+syn keyword ccFunction Point
+syn keyword ccFunction Vec2
 syn keyword ccFunction absFunc
 syn keyword ccFunction absolutePosition
 syn keyword ccFunction acceptVisitor
@@ -868,11 +875,6 @@ syn keyword ccFunction cancel
 syn keyword ccFunction cancelAlert
 syn keyword ccFunction cancelAlertView
 syn keyword ccFunction capacity
-syn keyword ccFunction CCRANDOM_0_1
-syn keyword ccFunction CC_CALLBACK_0
-syn keyword ccFunction CC_CALLBACK_1
-syn keyword ccFunction CC_CALLBACK_2
-syn keyword ccFunction CC_CALLBACK_3
 syn keyword ccFunction cdateFunc
 syn keyword ccFunction cellArea
 syn keyword ccFunction cellAtIndex
