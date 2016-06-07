@@ -541,7 +541,10 @@ syn keyword ccFunction CC_CALLBACK_0
 syn keyword ccFunction CC_CALLBACK_1
 syn keyword ccFunction CC_CALLBACK_2
 syn keyword ccFunction CC_CALLBACK_3
+syn keyword ccFunction EXACT_FIT
+syn keyword ccFunction NO_BORDER
 syn keyword ccFunction Point
+syn keyword ccFunction ResolutionPolicy
 syn keyword ccFunction Vec2
 syn keyword ccFunction absFunc
 syn keyword ccFunction absolutePosition
