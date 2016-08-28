@@ -1493,6 +1493,8 @@ syn keyword ccFunction findVertsFallback
 syn keyword ccFunction findVolotileTexture
 syn keyword ccFunction finderrfunc
 syn keyword ccFunction findfile
+syn keyword ccFunction setGroup
+syn keyword ccFunction setContactTestBitmask
 syn keyword ccFunction findindex
 syn keyword ccFunction finish
 syn keyword ccFunction finishRunLuaFunction
